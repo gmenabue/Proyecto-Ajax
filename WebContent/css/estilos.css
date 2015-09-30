@@ -1,0 +1,7 @@
+.hovertable tr:hover {background-color: #D8D8D8;}
+.hovertable {float: left;
+background-color: #FAFAFA;
+}
+.detalles {float: left;
+background-color: #A9E2F3;
+}

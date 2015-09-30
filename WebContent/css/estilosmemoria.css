@@ -1,0 +1,138 @@
+#principal {
+	float: inherit;
+	margin-left: 225px;
+	margin-top: 150px;
+	margin-right: 225px;
+}
+
+#div1{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	color: black;
+	background-image: url(../memoriaimg/pato.jpg);
+	background-position: -9000px;
+	color: black;
+}
+#div2{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+}
+#div3{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+#div4{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: gray;
+}
+
+#div5{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+
+#div6{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+	background-color: fuchsia;
+}
+#div7{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div8{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div9{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div10{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div11{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div12{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div13{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div14{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div15{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div16{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div17{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div18{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div19{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+#div20{
+	border: 1px solid black;
+	float: left;
+	width: 150px;
+	height: 150px;
+}

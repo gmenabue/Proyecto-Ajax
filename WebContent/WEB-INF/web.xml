@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ProyectoAjax</display-name>
+  <welcome-file-list>
+    <welcome-file>borraempleado.html</welcome-file>
+    <welcome-file>borraempleado.htm</welcome-file>
+    <welcome-file>borraempleado.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>CargarMenu</display-name>
+    <servlet-name>CargarMenu</servlet-name>
+    <servlet-class>examples.cargarmenu.CargarMenu</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CargarMenu</servlet-name>
+    <url-pattern>/CargarMenu</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>CargaJSON</display-name>
+    <servlet-name>CargaJSON</servlet-name>
+    <servlet-class>examples.cargarjson.CargaJSON</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CargaJSON</servlet-name>
+    <url-pattern>/CargaJSON</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>CargaMenuSelect</display-name>
+    <servlet-name>CargaMenuSelect</servlet-name>
+    <servlet-class>examples.cargarmenuselect.CargaMenuSelect</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CargaMenuSelect</servlet-name>
+    <url-pattern>/CargaMenuSelect</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>CargarTrabajadores</display-name>
+    <servlet-name>CargarTrabajadores</servlet-name>
+    <servlet-class>examples.cargartrabajadores.CargarTrabajadores</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CargarTrabajadores</servlet-name>
+    <url-pattern>/CargarTrabajadores</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>Empleados</display-name>
+    <servlet-name>Empleados</servlet-name>
+    <servlet-class>servlet.cargarempleados.Empleados</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Empleados</servlet-name>
+    <url-pattern>/Empleados</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>ProyectoAjax</description>
+    <display-name>ObtenerDetalles</display-name>
+    <servlet-name>ObtenerDetalles</servlet-name>
+    <servlet-class>servlet.obtenerdetalles.ObtenerDetalles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ObtenerDetalles</servlet-name>
+    <url-pattern>/ObtenerDetalles</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>Jersey Web Application</servlet-name>
+  <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+  <load-on-startup>1</load-on-startup>
+</servlet>
+<servlet-mapping>
+  <servlet-name>Jersey Web Application</servlet-name>
+  <url-pattern>/rest/*</url-pattern>
+</servlet-mapping>
+</web-app>
